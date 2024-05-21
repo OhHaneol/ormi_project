@@ -1,0 +1,260 @@
+
+/* 폰트 불러오기 */
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+        format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: "Pretendard-Regular";
+     box-sizing: border-box;
+ }
+
+
+/* 기본 적용 시작 */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body, ul, li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    border-radius: 40px;
+    background-color: #D97652;
+    color: white;
+    font-size: 16px;
+}
+
+/* 기본 적용 종료 */
+
+
+
+/* 헤더 시작 */
+
+#header {
+    background-color: #F2E9D8;
+    position: fixed;
+    padding-bottom: 10px;
+    /* 헤더 고정하면서 생긴 여백 없애기*/
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    /* block 수평 정렬 */
+    #header_logo {
+        float: left;
+        margin-top: 31px;
+        margin-left: 17%;
+        height: 40px;
+    }
+
+    #nav {
+        ul>li {
+            display: inline-block;
+            position: relative;
+            width: 20%;
+            button {
+                width: 140px;
+                height: 50px;
+            }
+        }
+
+        margin-left: 63%;
+
+        a {
+            font-size: 16px;
+            padding: 15px;
+        }
+    }
+}
+
+/* 헤더 종료 */
+
+
+
+/* 메인 시작 */
+
+.main {
+    position: relative;
+    width: 100%;
+    margin-left: 0;
+
+    #box-cat {
+
+        background-color: #F2E9D8;
+        padding-top: 165px;
+        padding-bottom: 250px;
+        margin-bottom: 100px;
+
+        img {
+            width: 415px;
+            height: 766px;
+            float: right;
+            margin-right: 10%;
+        }
+
+        #lorem-main1 {
+            width: 695px;
+            height: 120px;
+            font-size: 48px;
+            font-weight: 700;
+            margin-top: 130px;
+            margin-left: 17%;
+            margin-bottom: 100px;
+        }
+
+        #lorem-sub1 {
+            width: 420px;
+            height: 86;
+            font-size: 16px;
+            font-weight: 400;
+            margin-left: 17%;
+            margin-bottom: 40px;
+        }
+
+        #dummy-button1 {
+            width: 140px;
+            height: 50px;
+            margin-left: 17%;
+
+            p {
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+    }
+
+
+    #laying-cat {
+
+        img {
+            width: 660px;
+            height: 390px;
+            float: left;
+            margin-left: 15%;
+        }
+
+        #lorem-main2 {
+            width: 510px;
+            height: 135px;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 45px;
+            padding-top: 100px;
+            margin-left: 57%;
+            padding-bottom: 10px;
+        }
+
+        #lorem-sub2 {
+            width: 510px;
+            height: 40;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            padding-top: 80px;
+            margin-left: 57%;
+        }
+    }
+
+    #multi-cat {
+        clear: left;
+        margin-top: 200px;
+        padding-bottom: 150px;
+
+        #multi-cat-main {
+            text-align: center;
+            font-size: 48px;
+            color: #D97652;
+            font-weight: 700;
+        }
+
+        #multi-cat-sub {
+            text-align: center;
+            span {
+                font-weight: 700;
+                color: #D97652;
+            }
+            margin-bottom: 100px;
+        }
+
+        #multi-cat-img {
+            text-align: center;
+        }
+
+        #multi-cat-continue {
+            text-align: center;
+            p {
+                font-size: 24px;
+                font-weight: 700;
+            }
+            button {
+                width: 143px;
+                height: 50px;
+
+                p {
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+}
+
+/* 메인 종료 */
+
+
+
+/* 푸터 시작 */
+
+#footer {
+    height: 160px;
+    position: relative;
+
+    #footer_logo {
+        float: left;
+        margin-left: 17%;
+        height: 70px;
+    }
+
+    #footer-social {
+        position: absolute;
+        right: 15%;
+
+        /* block 수평 정렬 */
+        ul>li {
+            display: inline-block;
+            position: relative;
+            margin: 5px;
+        }
+
+
+        /* TODO 아이콘 내부 중앙 정렬 */
+        /* 아이콘 겹치기 */
+        .background-icon {
+                position: relative;
+                z-index: 1;
+        }
+        .social-icon {
+                position: absolute;
+                z-index: 2;
+        }
+
+
+    }
+}
+
+/* 푸터 종료 */
