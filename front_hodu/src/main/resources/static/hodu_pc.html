@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, width=1920, initial-scale=1.0"/>
     <title>HODU</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style_pc.css">
 </head>
 
 
@@ -40,13 +40,13 @@
     <div id="modal-contents">
         <img id="modal-bgr" src="./image/modal/modal-bgr.png">
         <img id="modal-cat" src="./image/modal/modal-cat.png">
-        <p id="modal-main-text">
+        <p id="modal-main-text" class="strong-font">
             Thank you!
         </p>
         <p id="modal-sub-text">
             Lorem Ipsum is simply dummy text of the printing industry.
         </p>
-        <button type="button" class="close-btn button">
+        <button type="button" class="close-btn button strong-font">
             OK! I Love HODU
         </button>
     </div>
@@ -55,7 +55,7 @@
 <main>
     <div id="box-cat">
         <img src="./image/cat/box-cat.png">
-        <p id="lorem-main1">
+        <p id="lorem-main1"  class="strong-font">
             Lorem Ipsum is simply <br>
             dummy text of the printing and
         </p>
@@ -65,14 +65,14 @@
             Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown
         </p>
-        <button id="dummy-button1" class="button">
+        <button id="dummy-button1" class="strong-font button">
             <p>Download</p>
         </button>
     </div>
 
     <div id="laying-cat">
         <img width="660px" height="390px" src="./image/cat/laying-cat.png">
-        <p id="lorem-main2">Lorem Ipsum is simply<br>
+        <p id="lorem-main2" class="strong-font">Lorem Ipsum is simply<br>
             dummy text of the printing<br>
             and dummy text
         </p>
@@ -82,7 +82,7 @@
     </div>
 
     <div id="multi-cat">
-        <p id="multi-cat-main">
+        <p id="multi-cat-main" class="strong-font">
             dummy text of the printing and dummy
         </p>
         <p id="multi-cat-sub">
@@ -102,31 +102,45 @@
             </div>
         </div>
 
-        <!--            TODO 무한 스크롤-->
+        <!--   TODO 무한 스크롤-->
         <div id="multi-cat-continue">
             <p>
                 Continue exploring HODU
             </p>
-            <button class="button">
-                <p>Show more</p>
+            <button class="button more-cat-btn">
+                <p class="strong-font">Show more</p>
             </button>
         </div>
+
     </div>
 
-    <!--        TODO 지도 api-->
+    <hr width="1050px" size="1px" color="#C4C4C4">
 
+    <!--        지도 api-->
+    <div id="map-api">
+        <p class="strong-font">
+            Where you’ll be
+        </p>
+        <p id="map-text">
+            330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea
+        </p>
+        <div id="map">
+            <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2bcebed8ba94a54d31daf93f73a70d82"></script>
+        </div>
+    </div>
 
     <!--        페이지 상단 이동 고정 버튼 -->
     <div>
         <button id="scroll-top">
             <img id="top-bgr" src="./image/ect/background.png">
             <img id="top-vector" src="./image/ect/Vector.png">
+            <img id="top-vector-hover" src="./image/ect/Vector_hover.png">
         </button>
     </div>
 
     <div id="subscribe">
         <div id="sub-text">
-            <p id="sub-main">
+            <p id="sub-main" class="strong-font">
                 Subscribe to our Blog post
             </p>
             <p id="sub-sub">
@@ -137,7 +151,7 @@
         <div id="enter-email">
             <label id="email-img" for="email"><img src="./image/ect/mail.png"></label>
             <input id="email" type="email" placeholder="Enter your e-mail address"/>
-            <input type="submit" value="Subscribe" id="sub-btn" class="button">
+            <input type="submit" value="Subscribe" id="sub-btn" class="strong-font button">
         </div>
 
     </div>
@@ -228,6 +242,20 @@
         });
     });
 
+<!--    지도 띄우기-->
+    const container = document.getElementById('map');
+    const options = {
+	    center: new kakao.maps.LatLng(33.421332, 126.6719281),
+	    level: 3
+    };
+    var map = new kakao.maps.Map(container, options);
+
+<!--    무한 고양이-->
+    const moreCat = document.querySelector('.more-cat-btn');
+    const catImages = document.querySelector('#multi-cat-img');
+    moreCat.addEventListener('click', function(){
+
+    });
 
 </script>
 
