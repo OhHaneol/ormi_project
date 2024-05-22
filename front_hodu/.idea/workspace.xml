@@ -1,34 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d453cbd-0c2e-463c-9b92-8b3e9d795dc3" name="Changes" comment="" />
+    <list default="true" id="498f94c1-4cc4-410d-bfc4-05b2bff8d5e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ormi_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/ormi_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/css/style_mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/css/style_pc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/hodu_mobile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/hodu_pc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/cat/box-cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/cat/footer-cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/cat/laying-cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/cat/multi-cat/cat_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/cat/multi-cat/cat_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/cat/multi-cat/cat_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/cat/multi-cat/cat_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/cat/multi-cat/cat_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/cat/multi-cat/cat_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/ect/Vector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/ect/Vector_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/ect/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/ect/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/ect/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/ect/menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/logo/d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/logo/h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/logo/o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/logo/u.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/modal/modal-bgr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/modal/modal-cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/social/blog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/social/ellipse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/social/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/social/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_hodu/src/main/resources/static/image/social/youtube.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="2ghz9DGYf0yvqNJJKCmWKcZKmC9" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2gi3MpmORCLzTOYm2ehkkfEAJjU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front_hodu/src/main/resources/static/css" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/front_hodu/src/main/resources/static/css" />
+      <recent name="$PROJECT_DIR$/front_hodu/src/main/resources/static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/front_hodu" />
+      <recent name="$PROJECT_DIR$/.idea" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0d453cbd-0c2e-463c-9b92-8b3e9d795dc3" name="Changes" comment="" />
-      <created>1716164444073</created>
+      <changelist id="498f94c1-4cc4-410d-bfc4-05b2bff8d5e7" name="Changes" comment="" />
+      <created>1716166526041</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1716164444073</updated>
+      <updated>1716166526041</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

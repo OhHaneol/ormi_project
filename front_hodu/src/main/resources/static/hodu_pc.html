@@ -212,63 +212,11 @@
 
 </footer>
 
-<script>
-
-<!--    모달창-->
-    const modal = document.querySelector('.modal');
-    const modalOpen = document.querySelector('#sub-btn');
-    const modalClose = document.querySelector('.close-btn');
-
-    <!--    열기 버튼을 누르면 모달팝업이 열림-->
-    modalOpen.addEventListener('click', function(){
-    <!--    'on' class 추가-->
-        modal.classList.add('on');
-    });
-
-    <!--    닫기 버튼을 누르면 모달팝업이 닫힘-->
-    modalClose.addEventListener('click', function(){
-    <!--        'on' class 제거-->
-        modal.classList.remove('on');
-    });
-
-
-
-<!--    스크롤 탑 이동-->
-    <!--버튼 DOM 객체를 불러와서 onclick 이벤트를 걸어줌. 클릭 시 스크롤을 이동시키기 위한 window.scrollTo 메서드 이용. 해당 메서드의 behavior: "smooth" 속성을 이용해 부드러운 이동을 구현-->
-    const scrollTop = document.querySelector('#scroll-top');
-    scrollTop.addEventListener('click', function(){
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    });
-
-<!--    지도 띄우기-->
-    const container = document.getElementById('map');
-    const options = {
-	    center: new kakao.maps.LatLng(33.421332, 126.6719281),
-	    level: 3
-    };
-    var map = new kakao.maps.Map(container, options);
-
-
-<!--    무한 고양이-->
-    const moreCatBtn = document.querySelector('.more-cat-btn');
-    const catImageList = document.getElementById('multi-cat-list');
-    const catImageBlock = document.querySelector('.multi-cat-img');
-
-    moreCatBtn.addEventListener('click', function(){
-        const newCatImageBlock = document.createElement('div');
-        newCatImageBlock.setAttribute('class', 'multi-cat-img');
-
-<!-- newCatImageBlock = catImageBlock 는 주소 복사와 같음. 따라서 catImageList 에 새로운 자식 노드가 추가되지 않는다!-->
-        newCatImageBlock.innerHTML += catImageBlock.innerHTML;
-        catImageList.appendChild(newCatImageBlock);
-
-    });
-
-
-</script>
+<script src="./script/menuModal.js"></script>
+<script src="./script/subscribeModal.js"></script>
+<script src="./script/kakaoMap.js"></script>
+<script src="./script/moreCat.js"></script>
+<script src="./script/scrollTop.js"></script>
 
 </body>
 </html>

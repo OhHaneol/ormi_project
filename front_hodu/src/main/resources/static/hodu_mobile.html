@@ -234,70 +234,10 @@
     </div>
 </footer>
 
-
-
-<script>
-
-<!-- 메뉴 모달창 -->
-    const menu = document.querySelector('.menu');
-    const menuOpen = document.querySelector('#menu-btn');
-    const menuClose = document.querySelector('#back-btn');
-
-    menuOpen.addEventListener('click', function(){
-        menu.classList.add('menuOn');
-    });
-    menuClose.addEventListener('click', function(){
-        menu.classList.remove('menuOn');
-    });
-
-
-
-<!-- 구독 모달창 -->
-    const modal = document.querySelector('.modal');
-    const modalOpen = document.querySelector('#sub-btn');
-    const modalClose = document.querySelector('.close-btn');
-
-    <!--    열기 버튼을 누르면 모달팝업이 열림-->
-    modalOpen.addEventListener('click', function(){
-    <!--    'on' class 추가-->
-        modal.classList.add('subOn');
-    });
-
-    <!--    닫기 버튼을 누르면 모달팝업이 닫힘-->
-    modalClose.addEventListener('click', function(){
-    <!--        'on' class 제거-->
-        modal.classList.remove('subOn');
-    });
-
-
-<!--    지도 띄우기-->
-    const container = document.getElementById('map');
-    const options = {
-	    center: new kakao.maps.LatLng(33.421332, 126.6719281),
-	    level: 3
-    };
-    var map = new kakao.maps.Map(container, options);
-
-
-<!--    무한 고양이-->
-    const moreCatBtn = document.querySelector('.more-cat-btn');
-    const catImageList = document.getElementById('multi-cat-list');
-    const catImageBlock = document.querySelector('.multi-cat-img');
-
-    moreCatBtn.addEventListener('click', function(){
-        const newCatImageBlock = document.createElement('div');
-        newCatImageBlock.setAttribute('class', 'multi-cat-img');
-
-<!-- newCatImageBlock = catImageBlock 는 주소 복사와 같음. 따라서 catImageList 에 새로운 자식 노드가 추가되지 않는다!-->
-        newCatImageBlock.innerHTML += catImageBlock.innerHTML;
-        catImageList.appendChild(newCatImageBlock);
-
-    });
-
-
-
-
-</script>
+<script src="./script/menuModal.js"></script>
+<script src="./script/subscribeModal.js"></script>
+<script src="./script/kakaoMap.js"></script>
+<script src="./script/moreCat.js"></script>
 
 </body>
 </html>
