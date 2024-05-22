@@ -1,6 +1,7 @@
 # ignore all .class files
 *.class
 
+
 # exclude lib.class from "*.class", meaning all lib.class are still tracked
 !lib.class
 
