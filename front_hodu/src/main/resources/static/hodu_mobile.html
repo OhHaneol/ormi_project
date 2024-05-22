@@ -90,18 +90,19 @@
             Lorem Ipsum is simply <span>dummy text</span> of the<br> printing and typesetting industry.<br>
             Lorem Ipsum has been the industry's<br> standard dummy text ever since the 1500s,<br> when an unknown
         </p>
-        <div id="multi-cat-img">
-            <div>
-                <img width="378px" height="378px" src="./image/cat/multi-cat/cat_1.png">
-                <img width="378px" height="378px" src="./image/cat/multi-cat/cat_2.png">
-                <img width="378px" height="378px" src="./image/cat/multi-cat/cat_3.png">
-                <img width="378px" height="378px" src="./image/cat/multi-cat/cat_4.png">
-                <img width="378px" height="378px" src="./image/cat/multi-cat/cat_5.png">
-                <img width="378px" height="378px" src="./image/cat/multi-cat/cat_6.png">
+        <div id="multi-cat-list">
+            <!-- 버튼 클릭 시 여러 번 반복되어 생성 예정이기 때문에 class 로 해줌-->
+            <div class="multi-cat-img">
+                <img src="./image/cat/multi-cat/cat_1.png">
+                <img src="./image/cat/multi-cat/cat_2.png">
+                <img src="./image/cat/multi-cat/cat_3.png">
+                <img src="./image/cat/multi-cat/cat_4.png">
+                <img src="./image/cat/multi-cat/cat_5.png">
+                <img src="./image/cat/multi-cat/cat_6.png">
             </div>
         </div>
 
-        <!--   TODO 무한 스크롤-->
+        <!--   무한 고양이 -->
         <div id="multi-cat-continue">
             <p>
                 Continue exploring HODU
@@ -277,12 +278,24 @@
     };
     var map = new kakao.maps.Map(container, options);
 
+
 <!--    무한 고양이-->
-    const moreCat = document.querySelector('.more-cat-btn');
-    const catImages = document.querySelector('#multi-cat-img');
-    moreCat.addEventListener('click', function(){
+    const moreCatBtn = document.querySelector('.more-cat-btn');
+    const catImageList = document.getElementById('multi-cat-list');
+    const catImageBlock = document.querySelector('.multi-cat-img');
+
+    moreCatBtn.addEventListener('click', function(){
+        const newCatImageBlock = document.createElement('div');
+        newCatImageBlock.setAttribute('class', 'multi-cat-img');
+
+<!-- newCatImageBlock = catImageBlock 는 주소 복사와 같음. 따라서 catImageList 에 새로운 자식 노드가 추가되지 않는다!-->
+        newCatImageBlock.innerHTML += catImageBlock.innerHTML;
+        catImageList.appendChild(newCatImageBlock);
 
     });
+
+
+
 
 </script>
 

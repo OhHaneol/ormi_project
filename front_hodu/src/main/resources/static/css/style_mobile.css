@@ -39,7 +39,7 @@ a {
 }
 
 .button:hover {
-    box-shadow: 3px 4px 11px 0px #00000040;
+    box-shadow: 3px 4px 11px 0px #00000090;
 }
 
 .strong-font {
@@ -250,8 +250,12 @@ main {
             margin-bottom: 50px;
         }
 
-        #multi-cat-img {
+        .multi-cat-img {
             margin-left: 15px;
+
+            img {
+                width: 380px;
+            }
         }
 
         #multi-cat-continue {
@@ -276,6 +280,7 @@ main {
         z-index: 0;
         margin-left: 30px;
         margin-bottom: 320px;
+        position: relative;
 
         #map-main {
             font-weight: 700;

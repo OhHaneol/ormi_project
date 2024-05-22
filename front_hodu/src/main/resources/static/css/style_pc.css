@@ -39,7 +39,7 @@ a {
 }
 
 .button:hover {
-    box-shadow: 3px 4px 11px 0px #00000040;
+    box-shadow: 3px 4px 11px 0px #00000090;
 }
 
 .strong-font {
@@ -152,7 +152,7 @@ main {
             width: 660px;
             height: 390px;
             float: left;
-            margin-left: 15%;
+            margin-left: 320px;
         }
 
         #lorem-main2 {
@@ -160,7 +160,7 @@ main {
             height: 135px;
             line-height: 45px;
             padding-top: 100px;
-            margin-left: 57%;
+            margin-left: 1050px;
             padding-bottom: 10px;
         }
 
@@ -171,7 +171,7 @@ main {
             font-weight: 400;
             line-height: 20px;
             padding-top: 80px;
-            margin-left: 57%;
+            margin-left: 1050px;
         }
     }
 
@@ -195,8 +195,15 @@ main {
             margin-bottom: 100px;
         }
 
-        #multi-cat-img {
-            text-align: center;
+        .multi-cat-img {
+            width: 1278px;
+            margin-left: 320px;
+
+            img {
+                display: inline-block;
+                width: 420px;
+            }
+
         }
 
         #multi-cat-continue {
