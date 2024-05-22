@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, width=1920, initial-scale=1.0"/>
     <title>HODU</title>
-    <link rel="stylesheet" href="./css/style_pc.css">
+    <link rel="stylesheet" href="./css/style_mobile.css">
 </head>
 
 
@@ -14,14 +14,28 @@
 <header>
     <div id="header_logo">
         <a href="#">
-            <img width="31.35px" height="35.81px" src="./image/logo/h.png"/>
-            <img width="37.89px" height="40px" src="./image/logo/o.png"/>
-            <img width="33.85px" height="35.85px" src="./image/logo/d.png"/>
-            <img width="32.06px" height="36.28px" src="./image/logo/u.png"/>
+            <img width="22.18px" height="25.07px" src="./image/logo/h.png"/>
+            <img width="26.81px" height="28px" src="./image/logo/o.png"/>
+            <img width="23.96px" height="25.09px" src="./image/logo/d.png"/>
+            <img width="22.69px" height="25.39px" src="./image/logo/u.png"/>
         </a>
     </div>
 
-    <div id="nav">
+    <button id="menu-btn">
+        <img src="./image/ect/menu.png">
+    </button>
+
+</header>
+
+
+<!--메뉴 모달창-->
+<div class="menu">
+    <div id="menu-side">
+
+        <button id="back-btn">
+            <img src="./image/ect/back.png">
+        </button>
+
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -32,42 +46,29 @@
                 </button>
             </li>
         </ul>
-    </div>
-</header>
 
-<!--    모달창-->
-<div class="modal">
-    <div id="modal-contents">
-        <img id="modal-bgr" src="./image/modal/modal-bgr.png">
-        <img id="modal-cat" src="./image/modal/modal-cat.png">
-        <p id="modal-main-text" class="strong-font">
-            Thank you!
-        </p>
-        <p id="modal-sub-text">
-            Lorem Ipsum is simply dummy text of the printing industry.
-        </p>
-        <button type="button" class="close-btn button strong-font">
-            OK! I Love HODU
-        </button>
     </div>
 </div>
 
+
 <main>
     <div id="box-cat">
-        <img src="./image/cat/box-cat.png">
         <p id="lorem-main1"  class="strong-font">
             Lorem Ipsum is simply <br>
-            dummy text of the printing and
+            dummy text <br>
+            of the printing and
         </p>
         <p id="lorem-sub1">
-            Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry.<br>
-            Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown
+            Lorem Ipsum is simply dummy text<br>
+            of the printing and typesetting industry.<br>
+            Lorem Ipsum has been the industry's<br>
+            standard dummy text ever since the 1500s,<br>
+            when an unknown
         </p>
         <button id="dummy-button1" class="strong-font button">
             <p>Download</p>
         </button>
+        <img src="./image/cat/box-cat.png">
     </div>
 
     <div id="laying-cat">
@@ -83,19 +84,17 @@
 
     <div id="multi-cat">
         <p id="multi-cat-main" class="strong-font">
-            dummy text of the printing and dummy
+            dummy text of the printing<br> and dummy
         </p>
         <p id="multi-cat-sub">
-            Lorem Ipsum is simply <span>dummy text</span> of the printing and typesetting industry.<br>
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+            Lorem Ipsum is simply <span>dummy text</span> of the<br> printing and typesetting industry.<br>
+            Lorem Ipsum has been the industry's<br> standard dummy text ever since the 1500s,<br> when an unknown
         </p>
         <div id="multi-cat-img">
             <div>
                 <img width="378px" height="378px" src="./image/cat/multi-cat/cat_1.png">
                 <img width="378px" height="378px" src="./image/cat/multi-cat/cat_2.png">
                 <img width="378px" height="378px" src="./image/cat/multi-cat/cat_3.png">
-            </div>
-            <div>
                 <img width="378px" height="378px" src="./image/cat/multi-cat/cat_4.png">
                 <img width="378px" height="378px" src="./image/cat/multi-cat/cat_5.png">
                 <img width="378px" height="378px" src="./image/cat/multi-cat/cat_6.png">
@@ -114,38 +113,29 @@
 
     </div>
 
-    <hr width="1278px" size="1px" color="#C4C4C4">
+    <hr width="326px" size="1px" color="#C4C4C4">
 
     <!--        지도 api-->
     <div id="map-api">
-        <p class="strong-font">
+        <p id="map-main">
             Where you’ll be
         </p>
-        <p id="map-text">
-            330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea
+        <p id="map-sub">
+            330, Cheomdan-ro, Jeju-si, Jeju-do,<br> Republic of Korea
         </p>
         <div id="map">
             <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2bcebed8ba94a54d31daf93f73a70d82"></script>
         </div>
     </div>
 
-    <!--        페이지 상단 이동 고정 버튼 -->
-    <div>
-        <button id="scroll-top">
-            <img id="top-bgr" src="./image/ect/background.png">
-            <img id="top-vector" src="./image/ect/Vector.png">
-            <img id="top-vector-hover" src="./image/ect/Vector_hover.png">
-        </button>
-    </div>
-
     <div id="subscribe">
         <div id="sub-text">
             <p id="sub-main" class="strong-font">
-                Subscribe to our Blog post
+                Subscribe to our<br> Blog post
             </p>
             <p id="sub-sub">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
-                Lorem Ipsum has been the industry's standard dummy text
+                Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.<br>
+                Lorem Ipsum has been the industry's<br> standard dummy text
             </p>
         </div>
         <div id="enter-email">
@@ -162,16 +152,50 @@
     </div>
 </main>
 
+<!--    구독 모달창-->
+<div class="modal">
+    <div id="modal-contents">
+        <img id="modal-bgr" src="./image/modal/modal-bgr.png">
+        <img id="modal-cat" src="./image/modal/modal-cat.png">
+        <p id="modal-main-text" class="strong-font">
+            Thank you!
+        </p>
+        <p id="modal-sub-text">
+            Lorem Ipsum is simply dummy<br> text of the printing industry.
+        </p>
+        <button type="button" class="close-btn button strong-font">
+            OK! I Love HODU
+        </button>
+    </div>
+</div>
+
 
 <!--    푸터-->
 <footer>
 
+    <div id="footer-menu">
+        <ul>
+            <li>
+                <a href="/about">About</a>
+            </li>
+            <li>
+                <a href="/blog">Blog</a>
+            </li>
+            <li>
+                <a href="/support">Support</a>
+            </li>
+            <li>
+                <a href="/terms-of-use">Terms of Use</a>
+            </li>
+        </ul>
+    </div>
+
     <div id="footer_logo">
         <a href="#">
-            <img width="54.5px" height="62.67px" src="./image/logo/h.png"/>
-            <img width="65.86px" height="70px" src="./image/logo/o.png"/>
-            <img width="58.85px" height="62.73px" src="./image/logo/d.png"/>
-            <img width="55.74px" height="63.49px" src="./image/logo/u.png"/>
+            <img width="27.01px" height="30.44px" src="./image/logo/h.png"/>
+            <img width="32.64px" height="34px" src="./image/logo/o.png"/>
+            <img width="29.16px" height="30.47px" src="./image/logo/d.png"/>
+            <img width="27.62px" height="30.84px" src="./image/logo/u.png"/>
         </a>
     </div>
 
@@ -179,8 +203,8 @@
         <ul id="icon-list">
             <li>
                 <a href="/blog">
-                    <img class="social-icon" src="./image/social/blog.png"/>
-                    <img class="background-icon" src="./image/social/ellipse.png"/>
+                    <img class="social-icon"src="./image/social/blog.png"/>
+                    <img class="background-icon"src="./image/social/ellipse.png"/>
                 </a>
             </li>
 
@@ -200,20 +224,34 @@
 
             <li>
                 <a href="/youtube">
-                    <img class="social-icon" src="./image/social/youtube.png"/>
-                    <img class="background-icon" src="./image/social/ellipse.png"/>
+                    <img class="social-icon" width="24px" height="24px" src="./image/social/youtube.png"/>
+                    <img class="background-icon" width="42px" height="42px" src="./image/social/ellipse.png"/>
                 </a>
             </li>
         </ul>
 
     </div>
-
-
 </footer>
+
+
 
 <script>
 
-<!--    모달창-->
+<!-- 메뉴 모달창 -->
+    const menu = document.querySelector('.menu');
+    const menuOpen = document.querySelector('#menu-btn');
+    const menuClose = document.querySelector('#back-btn');
+
+    menuOpen.addEventListener('click', function(){
+        menu.classList.add('menuOn');
+    });
+    menuClose.addEventListener('click', function(){
+        menu.classList.remove('menuOn');
+    });
+
+
+
+<!-- 구독 모달창 -->
     const modal = document.querySelector('.modal');
     const modalOpen = document.querySelector('#sub-btn');
     const modalClose = document.querySelector('.close-btn');
@@ -221,26 +259,15 @@
     <!--    열기 버튼을 누르면 모달팝업이 열림-->
     modalOpen.addEventListener('click', function(){
     <!--    'on' class 추가-->
-        modal.classList.add('on');
+        modal.classList.add('subOn');
     });
 
     <!--    닫기 버튼을 누르면 모달팝업이 닫힘-->
     modalClose.addEventListener('click', function(){
     <!--        'on' class 제거-->
-        modal.classList.remove('on');
+        modal.classList.remove('subOn');
     });
 
-
-
-<!--    스크롤 탑 이동-->
-    <!--버튼 DOM 객체를 불러와서 onclick 이벤트를 걸어줌. 클릭 시 스크롤을 이동시키기 위한 window.scrollTo 메서드 이용. 해당 메서드의 behavior: "smooth" 속성을 이용해 부드러운 이동을 구현-->
-    const scrollTop = document.querySelector('#scroll-top');
-    scrollTop.addEventListener('click', function(){
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    });
 
 <!--    지도 띄우기-->
     const container = document.getElementById('map');
