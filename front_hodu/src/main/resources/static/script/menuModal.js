@@ -2,9 +2,9 @@ const menu = document.querySelector('.menu');
 const menuOpen = document.querySelector('#menu-btn');
 const menuClose = document.querySelector('#back-btn');
 
-menuOpen.addEventListener('click', function(){
+menuOpen.addEventListener('click', () => {
     menu.classList.add('menuOn');
 });
-menuClose.addEventListener('click', function(){
+menuClose.addEventListener('click', () => {
     menu.classList.remove('menuOn');
 });
